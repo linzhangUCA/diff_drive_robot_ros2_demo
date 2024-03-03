@@ -1,10 +1,21 @@
 <?xml version="1.0"?>
 <robot name="demobot">
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+    <material name="purple">
+        <color rgba="0.3098 0.1765 0.4980 1" />
+    </material>
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1" />
+    </material>
+
     <link name="base_link">
         <visual>
             <geometry>
                 <box size="0.2 0.2 0.005"/>
             </geometry>
+            <material name="purple"/>
         </visual>
     </link>
 
@@ -19,6 +30,7 @@
             <geometry>
                 <sphere radius="0.01"/>
             </geometry>
+            <material name="gray"/>
         </visual>
     </link>
 
@@ -34,6 +46,7 @@
             <geometry>
                 <cylinder radius="0.03" length="0.025"/>
             </geometry>
+            <material name="black"/>
         </visual>
     </link>
 
@@ -49,6 +62,7 @@
             <geometry>
                 <cylinder radius="0.03" length="0.025"/>
             </geometry>
+            <material name="black"/>
         </visual>
     </link>
 
