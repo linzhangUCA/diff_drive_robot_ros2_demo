@@ -20,7 +20,7 @@
     <xacro:property name="WHEEL_R" value="0.03" />
 
     <!-- Wheel macro -->
-    <xacro:macro name="wheel" params="prefix y_reflect">
+    <xacro:macro name="Wheel" params="prefix y_reflect">
         <joint name="${prefix}_wheel_joint" type="continuous">
             <parent link="base_link" />
             <child link="${prefix}_wheel_link" />
@@ -62,7 +62,7 @@
         </visual>
     </link>
 
-    <xacro:wheel prefix="left" y_reflect="1" />
-    <xacro:wheel prefix="right" y_reflect="-1" />
+    <xacro:Wheel prefix="left" y_reflect="1" />
+    <xacro:Wheel prefix="right" y_reflect="-1" />
 
 </robot>
