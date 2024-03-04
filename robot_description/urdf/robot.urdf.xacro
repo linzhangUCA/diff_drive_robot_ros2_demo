@@ -8,18 +8,21 @@
     <xacro:property name="BASE_X" value="0.2" />
     <xacro:property name="BASE_Y" value="0.2" />
     <xacro:property name="BASE_Z" value="0.005" />
+    <xacro:property name="BASE_M" value="0.2" />
     
     <xacro:property name="CASTER_OFF_X" value="-0.09" />
     <xacro:property name="CASTER_OFF_Z" value="-0.03" />
     <xacro:property name="CASTER_R" value="0.01" />
+    <xacro:property name="CASTER_M" value="0.1" />
 
     <xacro:property name="WHEEL_OFF_X" value="0.075" />
     <xacro:property name="WHEEL_OFF_Y" value="0.115" />
     <xacro:property name="WHEEL_OFF_Z" value="-0.01" />
     <xacro:property name="WHEEL_L" value="0.025" />
     <xacro:property name="WHEEL_R" value="0.03" />
+    <xacro:property name="WHEEL_M" value="0.05" />
 
-    <!-- Wheel macro -->
+    <!-- Macros -->
     <xacro:macro name="Wheel" params="prefix y_reflect">
         <joint name="${prefix}_wheel_joint" type="continuous">
             <parent link="base_link" />
@@ -35,7 +38,36 @@
                 </geometry>
                 <material name="black" />
             </visual>
+
+            <collision>
+                <geometry>
+                    <cylinder radius="${WHEEL_R}" length="${WHEEL_L}" />
+                </geometry>
+            </collision>
+
+            <xacro:CylinderInertial m="${WHEEL_M}" r="${WHEEL_R}" l="${WHEEL_L}" />
         </link>
+    </xacro:macro>
+
+    <xacro:macro name="BoxInertial" params="m x y z">
+        <inertial>
+            <mass value="${m}" />
+            <inertia ixx="${(m/12) * (z*z + y*y)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (x*x + z*z)}" iyz="0.0" izz="${(m/12) * (y*y + x*x)}" />
+        </inertial>
+    </xacro:macro>
+
+    <xacro:macro name="CylinderInertial" params="m r l">
+        <inertial>
+            <mass value="${m}" />
+            <inertia ixx="${(m/12) * (3*r*r + l*l)}" ixy="0" ixz="0" iyy="${(m/12) * (3*r*r + l*l)}" iyz="0" izz="${(m/2) * (r*r)}" />
+        </inertial>
+    </xacro:macro>
+
+    <xacro:macro name="SphereInertial" params="m r">
+        <inertial>
+            <mass value="${m}" />
+            <inertia ixx="${(2/5) * m * (r*r)}" ixy="0.0" ixz="0.0" iyy="${(2/5) * m * (r*r)}" iyz="0.0" izz="${(2/5) * m * (r*r)}" />
+        </inertial>
     </xacro:macro>
 
     <!-- Start Modelling -->
@@ -46,6 +78,14 @@
             </geometry>
             <material name="purple"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <box size="${BASE_X} ${BASE_Y} ${BASE_Z}"/>
+            </geometry>
+        </collision>
+
+        <xacro:BoxInertial m="${BASE_M}" x="${BASE_X}" y="${BASE_Y}" z="${BASE_Z}" />
     </link>
 
     <joint name="caster joint" type="fixed">
@@ -61,6 +101,14 @@
             </geometry>
             <material name="gray"/>
         </visual>
+
+        <collision>
+            <geometry>
+                <sphere radius="${CASTER_R}"/>
+            </geometry>
+        </collision>
+
+        <xacro:SphereInertial m="${CASTER_M}" r="${CASTER_R}" />
     </link>
 
     <xacro:Wheel prefix="left" y_reflect="1" />
