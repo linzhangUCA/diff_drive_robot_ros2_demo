@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="demobot">
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+    <material name="purple">
+        <color rgba="0.3098 0.1765 0.4980 1" />
+    </material>
+    <material name="gray">
+        <color rgba="0.5 0.5 0.5 1" />
+    </material>
+
+    <!-- Constants -->
+    <xacro:property name="PI" value="3.14159265359" />
+
+    <xacro:property name="BASE_X" value="0.2" />
+    <xacro:property name="BASE_Y" value="0.2" />
+    <xacro:property name="BASE_Z" value="0.005" />
+    
+    <xacro:property name="CASTER_OFF_X" value="-0.09" />
+    <xacro:property name="CASTER_OFF_Z" value="-0.03" />
+    <xacro:property name="CASTER_R" value="0.01" />
+
+    <xacro:property name="WHEEL_OFF_X" value="0.075" />
+    <xacro:property name="WHEEL_OFF_Y" value="0.115" />
+    <xacro:property name="WHEEL_OFF_Z" value="-0.01" />
+    <xacro:property name="WHEEL_L" value="0.025" />
+    <xacro:property name="WHEEL_R" value="0.03" />
+
+    <!-- Wheel macro -->
+    <xacro:macro name="wheel" params="prefix y_reflect">
+        <joint name="${prefix}_wheel_joint" type="continuous">
+            <parent link="base_link" />
+            <child link="${prefix}_wheel_link" />
+            <origin xyz="${WHEEL_OFF_X} ${y_reflect*WHEEL_OFF_Y} ${WHEEL_OFF_Z}" rpy="${PI/2} 0 0" />
+            <axis xyz="0 0 1" />
+        </joint>
+
+        <link name="${prefix}_wheel_link">
+            <visual>
+                <geometry>
+                    <cylinder radius="${WHEEL_R}" length="${WHEEL_L}" />
+                </geometry>
+                <material name="black" />
+            </visual>
+        </link>
+    </xacro:macro>
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${BASE_X} ${BASE_Y} ${BASE_Z}"/>
+            </geometry>
+            <material name="purple"/>
+        </visual>
+    </link>
+
+    <joint name="caster joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster"/>
+        <origin xyz="${CASTER_OFF_X} 0 ${CASTER_OFF_Z}"/>
+    </joint>
+
+    <link name="caster">
+        <visual>
+            <geometry>
+                <sphere radius="${CASTER_R}"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+    </link>
+
+    <xacro:wheel prefix="left" y_reflect="1" />
+    <xacro:wheel prefix="right" y_reflect="-1" />
+
+</robot>
