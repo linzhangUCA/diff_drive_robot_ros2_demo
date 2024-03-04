@@ -47,6 +47,9 @@
 
             <xacro:CylinderInertial m="${WHEEL_M}" r="${WHEEL_R}" l="${WHEEL_L}" />
         </link>
+        <gazebo reference="${prefix}_wheel_link">
+            <material>Gazebo/Black</material>
+        </gazebo>    
     </xacro:macro>
 
     <xacro:macro name="BoxInertial" params="m x y z">
@@ -87,6 +90,9 @@
 
         <xacro:BoxInertial m="${BASE_M}" x="${BASE_X}" y="${BASE_Y}" z="${BASE_Z}" />
     </link>
+    <gazebo reference="base_link">
+        <material>Gazebo/Purple</material>
+    </gazebo>
 
     <joint name="caster joint" type="fixed">
         <parent link="base_link"/>
@@ -110,6 +116,11 @@
 
         <xacro:SphereInertial m="${CASTER_M}" r="${CASTER_R}" />
     </link>
+    <gazebo reference="caster">
+        <mu1>0.0001</mu1>
+        <mu2>0.0001</mu2>
+        <material>Gazebo/Gray</material>
+    </gazebo>
 
     <xacro:Wheel prefix="left" y_reflect="1" />
     <xacro:Wheel prefix="right" y_reflect="-1" />
