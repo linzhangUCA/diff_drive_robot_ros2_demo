@@ -18,10 +18,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='pbd0',
+    maintainer='linzhangUCA',
     maintainer_email='lzhang12@ucae.edu',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='A fictional diff-drive robot model desription',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
