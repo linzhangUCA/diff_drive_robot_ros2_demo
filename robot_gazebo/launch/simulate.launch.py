@@ -11,6 +11,8 @@ def generate_launch_description():
     urdf_package_path = get_package_share_path("robot_description")
     model_path = urdf_package_path / "urdf/robot.urdf.xacro"
     rviz_config_path = urdf_package_path / "rviz/robot.rviz"
+    gazebo_package_path = get_package_share_path("robot_gazebo")
+    world_path = gazebo_package_path / "worlds/demo_world.sdf"
 
     model_arg = DeclareLaunchArgument(
         name="model",
@@ -54,6 +56,7 @@ def generate_launch_description():
             "libgazebo_ros_init.so",
             "-s",
             "libgazebo_ros_factory.so",
+            str(world_path),
         ],
         output="screen",
     )
