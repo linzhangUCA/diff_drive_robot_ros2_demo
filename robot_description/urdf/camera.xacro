@@ -5,7 +5,7 @@
     <xacro:property name="CAM_L" value="0.001" />
     <xacro:property name="CAM_OFF_X" value="0.1" />
     <xacro:property name="CAM_OFF_Z" value="0.05" />
-    <xacro:property name="CAM_M" value="0.17" />
+    <xacro:property name="CAM_M" value="0.005" />
 
     <joint name="camera_joint" type="fixed">
         <parent link="base_link" />
@@ -31,7 +31,16 @@
 
     </link>
 
-    <gazebo reference="camera">
+    <joint name="lens_joint" type="fixed">
+        <parent link="camera" />
+        <child link="lens" />
+        <origin xyz="0 0 0" rpy="0 ${PI/2} 0"/>
+    </joint>
+
+    <link name="lens">
+    </link>
+
+    <gazebo reference="lens">
         <material>Gazebo/Green</material>
         <sensor name="rgb_camera" type="camera">
             <always_on>true</always_on>
