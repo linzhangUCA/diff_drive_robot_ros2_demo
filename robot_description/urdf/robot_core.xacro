@@ -25,11 +25,6 @@
     <xacro:property name="WHEEL_R" value="0.03" />
     <xacro:property name="WHEEL_M" value="0.05" />
 
-    <xacro:property name="LIDAR_R" value="0.035" />
-    <xacro:property name="LIDAR_L" value="0.02" />
-    <xacro:property name="LIDAR_OFF_Z" value="0.08" />
-    <xacro:property name="LIDAR_M" value="0.17" />
-
     <!-- Macros -->
     <xacro:macro name="Wheel" params="prefix y_reflect">
         <joint name="${prefix}_wheel_joint" type="continuous">
