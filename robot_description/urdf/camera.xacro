@@ -28,8 +28,11 @@
         </collision>
 
         <xacro:CylinderInertial m="${CAM_M}" r="${CAM_R}" l="${CAM_L}" />
-
     </link>
+
+    <gazebo reference="camera">
+        <material>Gazebo/Green</material>
+    </gazebo>
 
     <joint name="lens_joint" type="fixed">
         <parent link="camera" />
@@ -37,15 +40,13 @@
         <origin xyz="0 0 0" rpy="0 ${PI/2} 0"/>
     </joint>
 
-    <link name="lens">
-    </link>
+    <link name="lens" />
 
     <gazebo reference="lens">
-        <material>Gazebo/Green</material>
         <sensor name="rgb_camera" type="camera">
             <always_on>true</always_on>
             <visualize>true</visualize>
-            <update_rate>20.0</update_rate>
+            <update_rate>30.0</update_rate>
             <camera name="rgb_camera">
                 <horizontal_fov>1.3962634</horizontal_fov>
                 <image>
