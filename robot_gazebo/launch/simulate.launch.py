@@ -13,6 +13,7 @@ def generate_launch_description():
     rviz_config_path = urdf_package_path / "rviz/robot.rviz"
     gazebo_package_path = get_package_share_path("robot_gazebo")
     world_path = gazebo_package_path / "worlds/demo_world.sdf"
+    ekf_config_path = gazebo_package_path / "configs/ekf.yaml"
 
     model_arg = DeclareLaunchArgument(
         name="model",
@@ -23,7 +24,7 @@ def generate_launch_description():
         name="use_sim_time",
         default_value="true",
         choices=["true", "false"],
-        description="Flag to enable use simulation time",
+        description="Flag to enable using simulation time",
     )
     rviz_arg = DeclareLaunchArgument(
         name="rvizconfig",
@@ -43,10 +44,6 @@ def generate_launch_description():
                 "robot_description": robot_description,
             }
         ],
-    )
-    joint_state_publisher_node = Node(
-        package="joint_state_publisher",
-        executable="joint_state_publisher",
     )
     gazebo_process = ExecuteProcess(
         cmd=[
@@ -77,6 +74,16 @@ def generate_launch_description():
         ],
         output="screen",
     )
+    robot_localization_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[
+            str(ekf_config_path),
+            {'use_sim_time': LaunchConfiguration('use_sim_time')}
+        ]
+    )
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -90,10 +97,10 @@ def generate_launch_description():
             sim_time_arg,
             model_arg,
             rviz_arg,
-            joint_state_publisher_node,
             robot_state_publisher_node,
             gazebo_process,
             spawn_entity,
-            # rviz_node,
+            robot_localization_node,
+            rviz_node,
         ]
     )
