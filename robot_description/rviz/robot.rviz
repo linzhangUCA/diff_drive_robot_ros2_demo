@@ -83,6 +83,11 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        imu:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
         left_wheel_link:
           Alpha: 1
           Show Axes: false
@@ -121,6 +126,8 @@ Visualization Manager:
           Value: true
         caster:
           Value: true
+        imu:
+          Value: true
         left_wheel_link:
           Value: true
         lens:
@@ -142,6 +149,8 @@ Visualization Manager:
             lens:
               {}
           caster:
+            {}
+          imu:
             {}
           left_wheel_link:
             {}
@@ -204,7 +213,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -262,10 +271,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.0197968482971191
+      Pitch: 0.33479687571525574
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 3.505420446395874
+      Yaw: 3.5404281616210938
     Saved: ~
 Window Geometry:
   Displays:
@@ -285,5 +294,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1296
-  X: 423
-  Y: 207
+  X: 70
+  Y: 27
