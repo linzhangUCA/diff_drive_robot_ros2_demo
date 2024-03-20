@@ -68,6 +68,10 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
+        base_footprint:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         base_link:
           Alpha: 1
           Show Axes: false
@@ -115,6 +119,8 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
+        base_footprint:
+          Value: true
         base_link:
           Value: true
         camera:
@@ -127,6 +133,8 @@ Visualization Manager:
           Value: true
         lidar:
           Value: true
+        map:
+          Value: true
         odom:
           Value: true
         right_wheel_link:
@@ -138,6 +146,8 @@ Visualization Manager:
       Show Names: true
       Tree:
         base_link:
+          base_footprint:
+            {}
           camera:
             lens:
               {}
@@ -149,6 +159,8 @@ Visualization Manager:
             {}
           right_wheel_link:
             {}
+        map:
+          {}
         odom:
           {}
       Update Interval: 0
@@ -201,6 +213,27 @@ Visualization Manager:
         Reliability Policy: Reliable
         Value: /rgb_camera/image_raw
       Value: true
+    - Alpha: 0.699999988079071
+      Class: rviz_default_plugins/Map
+      Color Scheme: map
+      Draw Behind: false
+      Enabled: true
+      Name: Map
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /map
+      Update Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /map_updates
+      Use Timestamp: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -247,7 +280,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.6420927047729492
+      Distance: 6.357391357421875
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -285,5 +318,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1296
-  X: 423
-  Y: 207
+  X: 70
+  Y: 27

@@ -9,7 +9,6 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     urdf_package_path = get_package_share_path("robot_description")
     gazebo_package_path = get_package_share_path("robot_gazebo")
-    slam_package_path = get_package_share_path("robot_slam")
     rviz_config_path = urdf_package_path / "rviz/robot.rviz"
 
     sim_time_arg = DeclareLaunchArgument(
@@ -35,16 +34,6 @@ def generate_launch_description():
         )
     )
     
-    # robot_localization_node = Node(
-    #     package="robot_localization",
-    #     executable="ekf_node",
-    #     name="ekf_filter_node",
-    #     output="screen",
-    #     parameters=[
-    #         str(slam_package_path / "config/ekf.yaml"),
-    #         {"use_sim_time": LaunchConfiguration("use_sim_time")},
-    #     ],
-    # )
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -58,8 +47,7 @@ def generate_launch_description():
             sim_time_arg,
             rviz_arg,
             launch_simulation,
-            # robot_localization_node,
-            # launch_online_async_slam,
+            launch_online_async_slam,
             rviz_node,
         ]
     )
