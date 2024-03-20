@@ -10,7 +10,6 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     urdf_package_path = get_package_share_path("robot_description")
     model_path = urdf_package_path / "urdf/robot.urdf.xacro"
-    rviz_config_path = urdf_package_path / "rviz/robot.rviz"
     gazebo_package_path = get_package_share_path("robot_gazebo")
     world_path = gazebo_package_path / "worlds/demo_world.sdf"
     ekf_config_path = gazebo_package_path / "configs/ekf.yaml"
@@ -25,11 +24,6 @@ def generate_launch_description():
         default_value="true",
         choices=["true", "false"],
         description="Flag to enable using simulation time",
-    )
-    rviz_arg = DeclareLaunchArgument(
-        name="rvizconfig",
-        default_value=str(rviz_config_path),
-        description="Absolute path to rviz config file",
     )
 
     robot_description = ParameterValue(
@@ -84,23 +78,14 @@ def generate_launch_description():
             {'use_sim_time': LaunchConfiguration('use_sim_time')}
         ]
     )
-    rviz_node = Node(
-        package="rviz2",
-        executable="rviz2",
-        name="rviz2",
-        output="screen",
-        arguments=["-d", LaunchConfiguration("rvizconfig")],
-    )
 
     return launch.LaunchDescription(
         [
             sim_time_arg,
             model_arg,
-            rviz_arg,
             robot_state_publisher_node,
             gazebo_process,
             spawn_entity,
             robot_localization_node,
-            rviz_node,
         ]
     )
