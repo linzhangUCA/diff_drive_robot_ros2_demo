@@ -55,27 +55,6 @@
         </gazebo>    
     </xacro:macro>
 
-    <xacro:macro name="BoxInertial" params="m x y z">
-        <inertial>
-            <mass value="${m}" />
-            <inertia ixx="${(m/12) * (z*z + y*y)}" ixy="0.0" ixz="0.0" iyy="${(m/12) * (x*x + z*z)}" iyz="0.0" izz="${(m/12) * (y*y + x*x)}" />
-        </inertial>
-    </xacro:macro>
-
-    <xacro:macro name="CylinderInertial" params="m r l">
-        <inertial>
-            <mass value="${m}" />
-            <inertia ixx="${(m/12) * (3*r*r + l*l)}" ixy="0" ixz="0" iyy="${(m/12) * (3*r*r + l*l)}" iyz="0" izz="${(m/2) * (r*r)}" />
-        </inertial>
-    </xacro:macro>
-
-    <xacro:macro name="SphereInertial" params="m r">
-        <inertial>
-            <mass value="${m}" />
-            <inertia ixx="${(2/5) * m * (r*r)}" ixy="0.0" ixz="0.0" iyy="${(2/5) * m * (r*r)}" iyz="0.0" izz="${(2/5) * m * (r*r)}" />
-        </inertial>
-    </xacro:macro>
-
     <!-- Start Modelling -->
     <link name="base_link">
         <visual>
@@ -96,6 +75,15 @@
     <gazebo reference="base_link">
         <material>Gazebo/Purple</material>
     </gazebo>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0.0 0.0 ${WHEEL_OFF_Z-WHEEL_R}" />
+    </joint>
+
+    <link name="base_footprint"/>
+
 
     <joint name="caster joint" type="fixed">
         <parent link="base_link"/>
