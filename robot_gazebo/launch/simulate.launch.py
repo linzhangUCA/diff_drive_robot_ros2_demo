@@ -96,11 +96,11 @@ def generate_launch_description():
         [
             sim_time_arg,
             model_arg,
-            rviz_arg,
+            # rviz_arg,
             robot_state_publisher_node,
             gazebo_process,
             spawn_entity,
             robot_localization_node,
-            rviz_node,
+            # rviz_node,
         ]
     )
