@@ -2,10 +2,6 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
     <gazebo>
         <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
-            <!-- <ros>
-                <namespace>/demobot</namespace>
-            </ros> -->
-            
             <!-- wheels -->
             <left_joint>left_wheel_joint</left_joint>
             <right_joint>right_wheel_joint</right_joint>
