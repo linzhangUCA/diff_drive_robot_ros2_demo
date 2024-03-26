@@ -96,6 +96,8 @@
             </linear_acceleration>
           </imu>
         </sensor>
+
+        <material>Gazebo/OrangeTransparent</material>
       </gazebo>
 
 </robot>

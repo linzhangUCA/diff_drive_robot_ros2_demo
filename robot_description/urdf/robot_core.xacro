@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
-    <!-- <xacro:include filename="$(find hpr_description)/urdf/materials.xacro" />
-    <xacro:include filename="$(find hpr_description)/urdf/inertia.xacro" /> -->
+
     <xacro:include filename="materials.xacro" />
     <xacro:include filename="inertial.xacro" />
 
@@ -85,7 +84,7 @@
     <link name="base_footprint"/>
 
 
-    <joint name="caster joint" type="fixed">
+    <joint name="caster_joint" type="fixed">
         <parent link="base_link"/>
         <child link="caster"/>
         <origin xyz="${CASTER_OFF_X} 0 ${CASTER_OFF_Z}"/>
