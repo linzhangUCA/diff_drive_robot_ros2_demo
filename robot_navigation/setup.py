@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import find_packages, setup
 
-package_name = 'robot_slam'
+package_name = 'robot_navigation'
 
 setup(
     name=package_name,

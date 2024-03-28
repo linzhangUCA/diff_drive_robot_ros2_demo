@@ -10,7 +10,7 @@
     <xacro:property name="BASE_X" value="0.2" />
     <xacro:property name="BASE_Y" value="0.2" />
     <xacro:property name="BASE_Z" value="0.005" />
-    <xacro:property name="BASE_M" value="0.2" />
+    <xacro:property name="BASE_M" value="2" />
     
     <xacro:property name="CASTER_OFF_X" value="-0.09" />
     <xacro:property name="CASTER_OFF_Z" value="-0.03" />
