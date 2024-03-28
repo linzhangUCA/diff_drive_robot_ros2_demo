@@ -17,7 +17,7 @@
             <odometry_frame>odom</odometry_frame>
 
             <!-- limits -->
-            <max_wheel_torque>20</max_wheel_torque>
+            <max_wheel_torque>10</max_wheel_torque>
             <max_acceleration>1.0</max_acceleration>
 
             <!-- miscs -->
