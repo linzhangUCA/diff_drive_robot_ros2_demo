@@ -33,6 +33,11 @@ def generate_launch_description():
             str(get_package_share_path("slam_toolbox") / "launch/online_async_launch.py")
         )
     )
+    launch_navigation = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            str(get_package_share_path("nav2_bringup") / "launch/navigation_launch.py")
+        )
+    )
     
     rviz_node = Node(
         package="rviz2",
@@ -48,6 +53,7 @@ def generate_launch_description():
             rviz_arg,
             launch_simulation,
             launch_online_async_slam,
+            launch_navigation,
             rviz_node,
         ]
     )
