@@ -12,6 +12,7 @@ def generate_launch_description():
     rviz_config_path = urdf_package_path / "rviz/robot.rviz"
     gazebo_package_path = get_package_share_path("robot_gazebo")
     nav_package_path = get_package_share_path("robot_navigation")
+    slam_config_path = nav_package_path / "configs/slam_mapping_params.yaml"
     nav_config_path = nav_package_path / "configs/nav2_params.yaml"
 
     sim_time_arg = DeclareLaunchArgument(
@@ -34,7 +35,10 @@ def generate_launch_description():
     launch_online_async_slam = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             str(get_package_share_path("slam_toolbox") / "launch/online_async_launch.py")
-        )
+        ),
+        launch_arguments={
+            'slam_params_file': str(slam_config_path),
+        }.items()
     )
 
     launch_navigation = IncludeLaunchDescription(
