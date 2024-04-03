@@ -12,3 +12,4 @@ The tutorials are organized in different branches in this repository. So, go ahe
 7. `7-camera`: setting up a simulated camera.
 8. `8-filtered_odom`: using `robot_localization` package to clean up robot's odometry.
 9. `9-slam`: using `slam_toolbox` package for simultaneous localization and mapping.
+10. `10-navigation`: using `nav2_bringup` package to navigate the robot.
