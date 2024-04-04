@@ -36,6 +36,7 @@ def generate_launch_description():
             str(get_package_share_path("slam_toolbox") / "launch/localization_launch.py")
         ),
         launch_arguments={
+            'use_sim_time': LaunchConfiguration('use_sim_time'),
             'slam_params_file': str(slam_config_path),
         }.items()    
     )
@@ -45,6 +46,7 @@ def generate_launch_description():
             str(get_package_share_path("nav2_bringup") / "launch/navigation_launch.py")
         ),
         launch_arguments={
+            'use_sim_time': LaunchConfiguration('use_sim_time'),
             'params_file': str(nav_config_path),
         }.items()
     )

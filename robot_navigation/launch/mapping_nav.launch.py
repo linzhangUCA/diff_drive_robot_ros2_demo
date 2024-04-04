@@ -14,7 +14,7 @@ def generate_launch_description():
     nav_package_path = get_package_share_path("robot_navigation")
     slam_config_path = nav_package_path / "configs/slam_mapping_params.yaml"
     nav_config_path = nav_package_path / "configs/nav2_params.yaml"
-
+        
     sim_time_arg = DeclareLaunchArgument(
         name="use_sim_time",
         default_value="true",
@@ -37,6 +37,7 @@ def generate_launch_description():
             str(get_package_share_path("slam_toolbox") / "launch/online_async_launch.py")
         ),
         launch_arguments={
+            'use_sim_time': LaunchConfiguration('use_sim_time'),
             'slam_params_file': str(slam_config_path),
         }.items()
     )
@@ -46,6 +47,7 @@ def generate_launch_description():
             str(get_package_share_path("nav2_bringup") / "launch/navigation_launch.py")
         ),
         launch_arguments={
+            'use_sim_time': LaunchConfiguration('use_sim_time'),
             'params_file': str(nav_config_path),
         }.items()
     )
