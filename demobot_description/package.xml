@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>robot_description</name>
+  <name>demobot_description</name>
   <version>0.0.0</version>
-  <description>A fictional diff-drive robot model desription </description>
-  <maintainer email="lzhang12@ucae.edu">linzhangUCA</maintainer>
+  <description>Package contains most basic urdf for a diff-drive robot</description>
+  <maintainer email="lzhang12@uca.edu">pbd0</maintainer>
   <license>MIT</license>
 
   <exec_depend>joint_state_publisher</exec_depend>

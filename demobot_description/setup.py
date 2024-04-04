@@ -2,7 +2,7 @@ import os
 from glob import glob
 from setuptools import find_packages, setup
 
-package_name = 'robot_description'
+package_name = 'demobot_description'
 
 setup(
     name=package_name,
@@ -18,9 +18,9 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='linzhangUCA',
-    maintainer_email='lzhang12@ucae.edu',
-    description='A fictional diff-drive robot model desription',
+    maintainer='pbd0',
+    maintainer_email='lzhang12@uca.edu',
+    description='Package contains most basic urdf for a diff-drive robot',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
