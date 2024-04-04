@@ -318,7 +318,7 @@ Visualization Manager:
       Length: 0.30000001192092896
       Line Style: Lines
       Line Width: 0.029999999329447746
-      Name: Path
+      Name: GlobalPath
       Offset:
         X: 0
         Y: 0
@@ -335,6 +335,19 @@ Visualization Manager:
         History Policy: Keep Last
         Reliability Policy: Reliable
         Value: /received_global_plan
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/Polygon
+      Color: 25; 255; 0
+      Enabled: true
+      Name: GlobalFootprint
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /local_costmap/published_footprint
       Value: true
   Enabled: true
   Global Options:
@@ -382,7 +395,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 9.359947204589844
+      Distance: 7.495027542114258
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -397,10 +410,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.1103978157043457
+      Pitch: 0.6503980755805969
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.8603979349136353
+      Yaw: 2.1054036617279053
     Saved: ~
 Window Geometry:
   Displays:
