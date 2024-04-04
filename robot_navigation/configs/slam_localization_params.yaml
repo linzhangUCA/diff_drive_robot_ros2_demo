@@ -15,7 +15,7 @@ slam_toolbox:
     mode: localization
 
     # if you'd like to start localizing on bringup in a map and pose
-    map_file_name: /home/pbd0/ros_ws/src/diff_drive_robot_ros2_demo/robot_navigation/maps/demo_map_serialized
+    map_file_name: /home/pbd0/demobot_ws/src/diff_drive_robot_ros2_demo/robot_navigation/maps/demo_map_serialized
     #map_start_pose: [5.0, 1.0, 0.0]
     map_start_at_dock: true
 
