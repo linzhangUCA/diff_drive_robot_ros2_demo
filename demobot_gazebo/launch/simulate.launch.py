@@ -8,12 +8,10 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 
 def generate_launch_description():
-    urdf_package_path = get_package_share_path("robot_description")
-    model_path = urdf_package_path / "urdf/robot.urdf.xacro"
-    rviz_config_path = urdf_package_path / "rviz/robot.rviz"
-    gazebo_package_path = get_package_share_path("robot_gazebo")
-    world_path = gazebo_package_path / "worlds/demo_world.sdf"
+    urdf_package_path = get_package_share_path("demobot_description")
+    model_path = urdf_package_path / "urdf/demobot.urdf.xacro"
 
+    # Launch arguments
     model_arg = DeclareLaunchArgument(
         name="model",
         default_value=str(model_path),
@@ -24,11 +22,6 @@ def generate_launch_description():
         default_value="true",
         choices=["true", "false"],
         description="Flag to enable use simulation time",
-    )
-    rviz_arg = DeclareLaunchArgument(
-        name="rvizconfig",
-        default_value=str(rviz_config_path),
-        description="Absolute path to rviz config file",
     )
 
     robot_description = ParameterValue(
@@ -44,10 +37,6 @@ def generate_launch_description():
             }
         ],
     )
-    joint_state_publisher_node = Node(
-        package="joint_state_publisher",
-        executable="joint_state_publisher",
-    )
     gazebo_process = ExecuteProcess(
         cmd=[
             "gazebo",
@@ -56,7 +45,6 @@ def generate_launch_description():
             "libgazebo_ros_init.so",
             "-s",
             "libgazebo_ros_factory.so",
-            str(world_path),
         ],
         output="screen",
     )
@@ -77,23 +65,13 @@ def generate_launch_description():
         ],
         output="screen",
     )
-    rviz_node = Node(
-        package="rviz2",
-        executable="rviz2",
-        name="rviz2",
-        output="screen",
-        arguments=["-d", LaunchConfiguration("rvizconfig")],
-    )
 
     return launch.LaunchDescription(
         [
             sim_time_arg,
             model_arg,
-            rviz_arg,
-            joint_state_publisher_node,
             robot_state_publisher_node,
             gazebo_process,
             spawn_entity,
-            # rviz_node,
         ]
     )

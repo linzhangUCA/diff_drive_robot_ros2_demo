@@ -5,58 +5,28 @@
     <!-- Constants -->
     <xacro:property name="PI" value="3.14159265359" />
 
-    <xacro:property name="BASE_X" value="0.2" />
-    <xacro:property name="BASE_Y" value="0.2" />
-    <xacro:property name="BASE_Z" value="0.005" />
-    <xacro:property name="BASE_M" value="0.2" />
+    <xacro:property name="BASE_X" value="1.0" />
+    <xacro:property name="BASE_Y" value="0.8" />
+    <xacro:property name="BASE_Z" value="0.4" />
+    <xacro:property name="BASE_M" value="4" />
     
-    <xacro:property name="CASTER_OFF_X" value="-0.09" />
-    <xacro:property name="CASTER_OFF_Z" value="-0.03" />
-    <xacro:property name="CASTER_R" value="0.01" />
-    <xacro:property name="CASTER_M" value="0.1" />
+    <xacro:property name="CASTER_OFF_X" value="-0.4" />
+    <xacro:property name="CASTER_OFF_Z" value="-0.2" />
+    <xacro:property name="CASTER_R" value="0.1" />
+    <xacro:property name="CASTER_M" value="1.0" />
 
-    <xacro:property name="WHEEL_OFF_X" value="0.075" />
-    <xacro:property name="WHEEL_OFF_Y" value="0.115" />
-    <xacro:property name="WHEEL_OFF_Z" value="-0.01" />
-    <xacro:property name="WHEEL_L" value="0.025" />
-    <xacro:property name="WHEEL_R" value="0.03" />
-    <xacro:property name="WHEEL_M" value="0.05" />
+    <xacro:property name="WHEEL_OFF_X" value="0.2" />
+    <xacro:property name="WHEEL_OFF_Y" value="0.5" />
+    <xacro:property name="WHEEL_R" value="0.3" />
+    <xacro:property name="WHEEL_L" value="0.1" />
+    <xacro:property name="WHEEL_M" value="0.5" />
 
+    <xacro:property name="LIDAR_OFF_Z" value="0.3" />
     <xacro:property name="LIDAR_R" value="0.035" />
     <xacro:property name="LIDAR_L" value="0.02" />
-    <xacro:property name="LIDAR_OFF_Z" value="0.08" />
     <xacro:property name="LIDAR_M" value="0.17" />
 
-    <!-- Macros -->
-    <xacro:macro name="Wheel" params="prefix y_reflect">
-        <joint name="${prefix}_wheel_joint" type="continuous">
-            <parent link="base_link" />
-            <child link="${prefix}_wheel_link" />
-            <origin xyz="${WHEEL_OFF_X} ${y_reflect*WHEEL_OFF_Y} ${WHEEL_OFF_Z}" rpy="${-PI/2} 0 0" />
-            <axis xyz="0 0 1" />
-        </joint>
-
-        <link name="${prefix}_wheel_link">
-            <visual>
-                <geometry>
-                    <cylinder radius="${WHEEL_R}" length="${WHEEL_L}" />
-                </geometry>
-                <material name="black" />
-            </visual>
-
-            <collision>
-                <geometry>
-                    <cylinder radius="${WHEEL_R}" length="${WHEEL_L}" />
-                </geometry>
-            </collision>
-
-            <xacro:CylinderInertial m="${WHEEL_M}" r="${WHEEL_R}" l="${WHEEL_L}" />
-        </link>
-        <gazebo reference="${prefix}_wheel_link">
-            <material>Gazebo/Black</material>
-        </gazebo>    
-    </xacro:macro>
-
+    <!-- Inertial matrix macro -->
     <xacro:macro name="BoxInertial" params="m x y z">
         <inertial>
             <mass value="${m}" />
@@ -76,6 +46,36 @@
             <mass value="${m}" />
             <inertia ixx="${(2/5) * m * (r*r)}" ixy="0.0" ixz="0.0" iyy="${(2/5) * m * (r*r)}" iyz="0.0" izz="${(2/5) * m * (r*r)}" />
         </inertial>
+    </xacro:macro>
+
+    <!-- Wheel macro -->
+    <xacro:macro name="Wheel" params="prefix y_reflect">
+        <joint name="${prefix}_wheel_joint" type="continuous">
+            <parent link="base_link" />
+            <child link="${prefix}_wheel" />
+            <origin xyz="${WHEEL_OFF_X} ${y_reflect*WHEEL_OFF_Y} 0" rpy="${-PI/2} 0 0" />
+            <axis xyz="0 0 1" />
+        </joint>
+
+        <link name="${prefix}_wheel">
+            <visual>
+                <geometry>
+                    <cylinder radius="${WHEEL_R}" length="${WHEEL_L}" />
+                </geometry>
+                <material name="black" />
+            </visual>
+
+            <collision>
+                <geometry>
+                    <cylinder radius="${WHEEL_R}" length="${WHEEL_L}" />
+                </geometry>
+            </collision>
+
+            <xacro:CylinderInertial m="${WHEEL_M}" r="${WHEEL_R}" l="${WHEEL_L}" />
+        </link>
+        <gazebo reference="${prefix}_wheel">
+            <material>Gazebo/Black</material>
+        </gazebo>
     </xacro:macro>
 
     <!-- Start Modelling -->
@@ -99,13 +99,13 @@
         <material>Gazebo/Purple</material>
     </gazebo>
 
-    <joint name="caster joint" type="fixed">
+    <joint name="caster_joint" type="fixed">
         <parent link="base_link"/>
-        <child link="caster"/>
+        <child link="caster_ball"/>
         <origin xyz="${CASTER_OFF_X} 0 ${CASTER_OFF_Z}"/>
     </joint>
 
-    <link name="caster">
+    <link name="caster_ball">
         <visual>
             <geometry>
                 <sphere radius="${CASTER_R}"/>
@@ -121,15 +121,17 @@
 
         <xacro:SphereInertial m="${CASTER_M}" r="${CASTER_R}" />
     </link>
-    <gazebo reference="caster">
+
+    <gazebo reference="caster_ball">
+        <material>Gazebo/Gray</material>
         <mu1>0.0001</mu1>
         <mu2>0.0001</mu2>
-        <material>Gazebo/Gray</material>
     </gazebo>
 
     <xacro:Wheel prefix="left" y_reflect="1" />
     <xacro:Wheel prefix="right" y_reflect="-1" />
 
+    <!-- Diff drive plugin -->
     <gazebo>
         <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
             <!-- <ros>
@@ -141,8 +143,8 @@
             <right_joint>right_wheel_joint</right_joint>
 
             <!-- kinematics -->
-            <wheel_separation>0.23</wheel_separation>
-            <wheel_diameter>0.06</wheel_diameter>
+            <wheel_separation>1.0</wheel_separation>
+            <wheel_diameter>0.6</wheel_diameter>
 
             <!-- tfs -->
             <publish_odom>true</publish_odom>
@@ -163,7 +165,7 @@
     <joint name="lidar_joint" type="fixed">
         <parent link="base_link" />
         <child link="lidar" />
-        <origin xyz="0 0 ${(BASE_Z+LIDAR_L)/2+LIDAR_OFF_Z}" />
+        <origin xyz="0 0 ${LIDAR_OFF_Z}" />
     </joint>
 
     <link name="lidar">
@@ -221,3 +223,4 @@
     </gazebo>
 
 </robot>
+
