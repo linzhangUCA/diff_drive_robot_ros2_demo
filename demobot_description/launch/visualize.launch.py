@@ -11,7 +11,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 
 def generate_launch_description():
     package_path = get_package_share_path('demobot_description')
-    model_path = package_path / 'urdf/demobot.urdf'
+    model_path = package_path / 'urdf/demobot.urdf.xacro'
     rviz_config_path = package_path / 'rviz/demobot.rviz'
 
     gui_arg = DeclareLaunchArgument(

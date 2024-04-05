@@ -15,8 +15,8 @@
 
     <xacro:property name="WHEEL_OFF_X" value="0.2" />
     <xacro:property name="WHEEL_OFF_Y" value="0.5" />
-    <xacro:property name="WHEEL_L" value="0.3" />
-    <xacro:property name="WHEEL_R" value="0.1" />
+    <xacro:property name="WHEEL_R" value="0.3" />
+    <xacro:property name="WHEEL_L" value="0.1" />
 
     <!-- Wheel macro -->
     <xacro:macro name="Wheel" params="prefix y_reflect">
