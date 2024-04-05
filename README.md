@@ -50,7 +50,8 @@ The `base_link` is always the first link for a robot's model. We'll use a box to
 ```
 
 4. Add the `caster_joint` and `caster_ball` to the URDF file.
-In order to specify next link's location and orientation. We need to set up another cartesian reference frame, so that we can attach the next link to it. We would like to model the caster wheel next, and we would like to place the `caster_ball` (next link) under the `base_link` and tailing at the back of the robot's body. 
+
+In order to specify next link's location and orientation. We need to set up another cartesian reference frame, so that we can attach the next link to it. We would like to model the caster wheel next, and we would like to place the `caster_ball` (next link) under the `base_link` and tailing at the back of the robot's body. Now your URDF file should look like below, and you can visualize the model by updating the code block on **[mymodelrobot](https://mymodelrobot.appspot.com/)** page.  
 ```xml
 <?xml version="1.0"?>
 <robot name="demobot">
@@ -77,3 +78,7 @@ In order to specify next link's location and orientation. We need to set up anot
     </link>
 </robot>
 ```
+
+5. Complete the model by adding more links and joints.
+
+We'll need to add two driving wheels to the model. So, two joints to settle two links are needed. Check out a completed example [here](demobot_description/urdf/demobot.urdf).
