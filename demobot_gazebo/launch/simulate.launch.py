@@ -10,6 +10,8 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     urdf_package_path = get_package_share_path("demobot_description")
     model_path = urdf_package_path / "urdf/demobot.urdf.xacro"
+    gazebo_package_path = get_package_share_path("demobot_gazebo")
+    world_path = gazebo_package_path / "worlds/demo_world.sdf"
 
     # Launch arguments
     model_arg = DeclareLaunchArgument(
@@ -45,6 +47,7 @@ def generate_launch_description():
             "libgazebo_ros_init.so",
             "-s",
             "libgazebo_ros_factory.so",
+            str(world_path),
         ],
         output="screen",
     )
