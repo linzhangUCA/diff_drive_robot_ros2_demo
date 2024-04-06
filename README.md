@@ -1,1 +1,1 @@
-# diff_drive_robot_ros2_demo
+# 6 - Simulate LiDAR
