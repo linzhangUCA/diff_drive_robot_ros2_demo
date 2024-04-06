@@ -35,13 +35,13 @@
                 <mu2>50</mu2>
               </ode>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
             </friction>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
           </surface>
           <max_contacts>10</max_contacts>
         </collision>
@@ -67,7 +67,7 @@
     </model>
     <gravity>0 0 -9.8</gravity>
     <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
-    <atmosphere type='adiabatic' />
+    <atmosphere type='adiabatic'/>
     <physics type='ode'>
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
@@ -78,7 +78,7 @@
       <background>0.7 0.7 0.7 1</background>
       <shadows>1</shadows>
     </scene>
-    <wind />
+    <wind/>
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
       <latitude_deg>0</latitude_deg>
@@ -99,14 +99,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -144,14 +144,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -189,14 +189,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -234,14 +234,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -286,14 +286,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -307,14 +307,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -328,14 +328,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -349,14 +349,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -370,14 +370,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -391,14 +391,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -428,14 +428,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -449,14 +449,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -470,14 +470,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -491,14 +491,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -512,14 +512,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -533,14 +533,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -570,14 +570,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -591,14 +591,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -612,14 +612,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -633,14 +633,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -654,14 +654,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -675,14 +675,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -708,14 +708,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -743,14 +743,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -778,14 +778,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -813,14 +813,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -848,14 +848,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -883,14 +883,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -918,14 +918,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -965,14 +965,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1000,14 +1000,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1035,14 +1035,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1070,14 +1070,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1105,14 +1105,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1140,14 +1140,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1175,14 +1175,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1222,14 +1222,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1257,14 +1257,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1292,14 +1292,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1327,14 +1327,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1362,14 +1362,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1397,14 +1397,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1432,14 +1432,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1479,14 +1479,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1514,14 +1514,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1549,14 +1549,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1584,14 +1584,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1619,14 +1619,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1654,14 +1654,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1689,14 +1689,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1736,14 +1736,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1771,14 +1771,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1806,14 +1806,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1841,14 +1841,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1876,14 +1876,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1911,14 +1911,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1946,14 +1946,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -1993,14 +1993,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2028,14 +2028,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2063,14 +2063,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2098,14 +2098,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2133,14 +2133,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2168,14 +2168,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2203,14 +2203,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2250,14 +2250,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2285,14 +2285,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2320,14 +2320,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2355,14 +2355,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2390,14 +2390,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2425,14 +2425,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2460,14 +2460,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2507,14 +2507,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2542,14 +2542,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2577,14 +2577,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2612,14 +2612,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2647,14 +2647,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2682,14 +2682,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2717,14 +2717,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2768,14 +2768,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2789,14 +2789,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2810,14 +2810,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2831,14 +2831,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2852,14 +2852,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2873,14 +2873,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2910,14 +2910,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2931,14 +2931,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2952,14 +2952,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2973,14 +2973,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -2994,14 +2994,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3015,14 +3015,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3045,14 +3045,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3102,14 +3102,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3137,14 +3137,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3172,14 +3172,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3207,14 +3207,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3242,14 +3242,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3277,14 +3277,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3333,14 +3333,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3368,14 +3368,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3403,14 +3403,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3438,14 +3438,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3473,14 +3473,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3508,14 +3508,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3564,14 +3564,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3599,14 +3599,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3634,14 +3634,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3669,14 +3669,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3704,14 +3704,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3739,14 +3739,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3783,14 +3783,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3833,14 +3833,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3878,14 +3878,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -3931,54 +3931,7 @@
                 <mu2>50</mu2>
               </ode>
               <torsional>
-                <ode />
-              </torsional>
-            </friction>
-            <contact>
-              <ode>
-                <soft_cfm>0</soft_cfm>
-                <soft_erp>0.2</soft_erp>
-                <max_vel>0</max_vel>
-                <min_depth>0</min_depth>
-              </ode>
-            </contact>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_block_wall/meshes/block_wall.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-    </model>
-    <model name='block_wall_0'>
-      <pose>-0.644575 2.96061 0.30924 0 -0 0</pose>
-      <static>1</static>
-      <link name='blocks'>
-        <collision name='collision'>
-          <geometry>
-            <mesh>
-              <uri>model://drc_practice_block_wall/meshes/block_wall.dae</uri>
-            </mesh>
-          </geometry>
-          <surface>
-            <bounce>
-              <restitution_coefficient>0</restitution_coefficient>
-              <threshold>100000</threshold>
-            </bounce>
-            <friction>
-              <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
-              </ode>
-              <torsional>
-                <ode />
+                <ode/>
               </torsional>
             </friction>
             <contact>
@@ -4023,14 +3976,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -4052,14 +4005,14 @@
           <max_contacts>10</max_contacts>
           <surface>
             <contact>
-              <ode />
+              <ode/>
             </contact>
-            <bounce />
+            <bounce/>
             <friction>
               <torsional>
-                <ode />
+                <ode/>
               </torsional>
-              <ode />
+              <ode/>
             </friction>
           </surface>
         </collision>
@@ -4096,223 +4049,29 @@
       </link>
       <pose>-11.0647 5.85609 0 0 -0 0</pose>
     </model>
-    <model name='warehouse_robot'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://warehouse_robot/meshes/robot.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision_base'>
-          <pose>0 0 0.20437 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.55508 1.0228 0.40874</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <collision name='collision_bumper'>
-          <pose>0 0 0.062205 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.67266 1.17126 0.12441</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <collision name='collision_column_large'>
-          <pose>0 -0.27539 0.43738 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <radius>0.08652</radius>
-              <length>0.87476</length>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <collision name='collision_column_small'>
-          <pose>0 -0.27539 0.70424 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <radius>0.04261</radius>
-              <length>1.40848</length>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>1.04275 -3.55771 0 0 -0 0</pose>
-    </model>
-    <model name='warehouse_robot_0'>
-      <static>1</static>
-      <link name='link'>
-        <visual name='visual'>
-          <geometry>
-            <mesh>
-              <uri>model://warehouse_robot/meshes/robot.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name='collision_base'>
-          <pose>0 0 0.20437 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.55508 1.0228 0.40874</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <collision name='collision_bumper'>
-          <pose>0 0 0.062205 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.67266 1.17126 0.12441</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <collision name='collision_column_large'>
-          <pose>0 -0.27539 0.43738 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <radius>0.08652</radius>
-              <length>0.87476</length>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <collision name='collision_column_small'>
-          <pose>0 -0.27539 0.70424 0 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <radius>0.04261</radius>
-              <length>1.40848</length>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <contact>
-              <ode />
-            </contact>
-            <bounce />
-            <friction>
-              <torsional>
-                <ode />
-              </torsional>
-              <ode />
-            </friction>
-          </surface>
-        </collision>
-        <self_collide>0</self_collide>
-        <enable_wind>0</enable_wind>
-        <kinematic>0</kinematic>
-      </link>
-      <pose>1.96691 -3.60618 0 0 -0 0</pose>
-    </model>
     <state world_name='default'>
-      <sim_time>30 875000000</sim_time>
-      <real_time>31 354656099</real_time>
-      <wall_time>1645640751 20811882</wall_time>
-      <iterations>30875</iterations>
+      <sim_time>0 0</sim_time>
+      <real_time>0 0</real_time>
+      <wall_time>1712375118 533344698</wall_time>
+      <iterations>0</iterations>
       <model name='Dumpster'>
-        <pose>-11.0647 5.85609 0 0 0 -1.63936</pose>
+        <pose>-11.167 5.77059 0.001377 -0 -0 -1.63842</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>-11.0647 5.85609 0 0 0 -1.63936</pose>
+          <pose>-11.167 5.77059 0.001377 -0 -0 -1.63842</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <acceleration>0.000458 0.006771 -4.93061 1.36779 0.333737 1e-05</acceleration>
+          <wrench>0.000458 0.006771 -4.93061 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='beer'>
+        <pose>-28.421 -8.37423 -8e-06 -1e-06 -0 -1.4e-05</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-28.421 -8.37423 0.114992 -1e-06 -0 -1.4e-05</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -3.822 0 -0 0</wrench>
         </link>
       </model>
       <model name='block_wall'>
@@ -4320,16 +4079,6 @@
         <scale>1 1 1</scale>
         <link name='blocks'>
           <pose>2.291 3.00557 0.30924 0 -0 0</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='block_wall_0'>
-        <pose>-0.644575 2.96061 0.30924 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='blocks'>
-          <pose>-0.644575 2.96061 0.30924 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4435,6 +4184,16 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
+      <model name='brick_box_3x1x3_1'>
+        <pose>-24.1867 -5.54273 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='chassis'>
+          <pose>-24.1867 -5.54273 1.5 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
       <model name='cabinet'>
         <pose>7.19314 4.16812 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4465,11 +4224,273 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='cube_20k'>
-        <pose>7.50828 -3.36335 0 0 -0 0</pose>
+      <model name='checkerboard_plane'>
+        <pose>-20.4865 -1.72979 0 0 -0 0</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>7.50828 -3.36335 0.5 0 -0 0</pose>
+          <pose>-20.4865 -1.72979 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='checkerboard_plane_clone'>
+        <pose>-20.4985 0.277203 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-20.4985 0.277203 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='checkerboard_plane_clone_0'>
+        <pose>-20.4854 2.26399 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-20.4854 2.26399 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='checkerboard_plane_clone_1'>
+        <pose>-20.5056 4.23998 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-20.5056 4.23998 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='cube_20k'>
+        <pose>7.50829 -3.36338 -0 -0 1e-06 -9.7e-05</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>7.50829 -3.36338 0.5 -0 1e-06 -9.7e-05</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>1.07556 0.034169 -0.19878 3.07115 0.991631 3.13739</acceleration>
+          <wrench>1.07556 0.034169 -0.19878 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_angled_barrier_135'>
+        <pose>-21.78 -5.63718 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='eight::link'>
+          <pose>-11.6304 -0.121042 0 0 0 -0.785398</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='five::link'>
+          <pose>-15.3917 -3.84644 0 0 0 -0.785398</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='four::link'>
+          <pose>-16.6457 -5.08881 0 0 0 -0.785398</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='nine::link'>
+          <pose>-10.7513 0.804848 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='one::link'>
+          <pose>-21.78 -5.63718 0 0 0 -1.5707</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='seven::link'>
+          <pose>-12.8839 -1.36189 0 0 0 -0.785398</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='six::link'>
+          <pose>-14.1378 -2.6046 0 0 0 -0.785398</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='ten::link'>
+          <pose>-10.7513 0.804848 0.866 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='three::link'>
+          <pose>-18.2508 -5.65335 0 0 0 -1.5707</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='two::link'>
+          <pose>-20.0155 -5.64574 0 0 0 -1.5707</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_angled_barrier_45'>
+        <pose>-18.2881 14.6532 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='eight::link'>
+          <pose>-8.0633 9.04342 0 0 0 -2.3562</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='five::link'>
+          <pose>-11.7899 12.8032 0 0 0 -2.3562</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='four::link'>
+          <pose>-13.0322 14.0565 0 0 0 -2.3562</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='nine::link'>
+          <pose>-7.2593 8.21117 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='one::link'>
+          <pose>-18.2881 14.6532 0 0 0 -1.5707</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='seven::link'>
+          <pose>-9.30554 10.2971 0 0 0 -2.3562</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='six::link'>
+          <pose>-10.5478 11.5506 0 0 0 -2.3562</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='ten::link'>
+          <pose>-7.2593 8.21117 0.866 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='three::link'>
+          <pose>-14.7589 14.637 0 0 0 -1.5707</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='two::link'>
+          <pose>-16.5235 14.6446 0 0 0 -1.5707</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_angled_barrier_45_clone'>
+        <pose>-28.2468 -2.79581 0 0 -0 1.45492</pose>
+        <scale>1 1 1</scale>
+        <link name='eight::link'>
+          <pose>-21.4924 6.71181 0 0 0 -0.901284</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='five::link'>
+          <pose>-25.6578 3.44489 0 0 0 -0.901284</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='four::link'>
+          <pose>-27.0464 2.35586 0 0 0 -0.901284</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='nine::link'>
+          <pose>-20.5728 7.41419 0 0 -0 1.45492</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='one::link'>
+          <pose>-28.2468 -2.79581 0 0 0 -0.115784</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='seven::link'>
+          <pose>-22.8814 5.62285 0 0 0 -0.901284</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='six::link'>
+          <pose>-24.2701 4.53386 0 0 0 -0.901284</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='ten::link'>
+          <pose>-20.5728 7.41419 0.866 0 -0 1.45492</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='three::link'>
+          <pose>-27.8227 0.707875 0 0 0 -0.115784</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+        <link name='two::link'>
+          <pose>-28.0343 -1.04403 0 0 0 -0.115784</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_blue_cylinder'>
+        <pose>2.07818 -3.01842 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>2.07818 -3.01842 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_blue_cylinder_0'>
+        <pose>1.24329 -3.01786 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>1.24329 -3.01786 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_blue_cylinder_1'>
+        <pose>-1.31465 -3.03918 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-1.31465 -3.03918 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4480,6 +4501,36 @@
         <scale>1 1 1</scale>
         <link name='link'>
           <pose>3.29707 1.97899 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_organge_jersey_barrier_0'>
+        <pose>4.59406 -1.67366 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>4.59406 -1.67366 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_white_jersey_barrier'>
+        <pose>-14.9836 5.93433 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-14.9836 5.93433 0 0 -0 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='drc_practice_yellow_parking_block'>
+        <pose>-15.1121 3.9647 0 0 -0 0</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-15.1121 3.9647 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4556,20 +4607,40 @@
         </link>
       </model>
       <model name='jersey_barrier_0'>
-        <pose>12.0429 -1.95938 0 0 -0 1.50359</pose>
+        <pose>11.9597 -2.18895 0 0 -0 1.50359</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>12.0429 -1.95938 0 0 -0 1.50359</pose>
+          <pose>11.9597 -2.18895 0 0 -0 1.50359</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='jersey_barrier_1'>
-        <pose>10.5621 -5.57868 0 0 -0 0.623427</pose>
+        <pose>10.1161 -5.66373 0 0 -0 0.623427</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose>10.5621 -5.57868 0 0 -0 0.623427</pose>
+          <pose>10.1161 -5.66373 0 0 -0 0.623427</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='jersey_barrier_2'>
+        <pose>-19.6926 12.9861 0 0 0 -1.59337</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-19.6926 12.9861 0 0 0 -1.59337</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 0 0 -0 0</acceleration>
+          <wrench>0 0 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='jersey_barrier_2_clone'>
+        <pose>-19.8045 8.95376 0 0 0 -1.59337</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose>-19.8045 8.95376 0 0 0 -1.59337</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4595,21 +4666,23 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='warehouse_robot'>
-        <pose>1.04275 -3.55771 0 0 -0 0</pose>
+      <model name='textured_shapes'>
+        <pose>-20.5029 -0.59794 0.5 0 -0 0</pose>
         <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>1.04275 -3.55771 0 0 -0 0</pose>
+        <link name='box'>
+          <pose>-20.5029 -2.09794 0.5 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
+          <acceleration>0 0 -0 0 -0 0</acceleration>
+          <wrench>0 0 -0 0 -0 0</wrench>
         </link>
-      </model>
-      <model name='warehouse_robot_0'>
-        <pose>1.96691 -3.60618 0 0 -0 0</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose>1.96691 -3.60618 0 0 -0 0</pose>
+        <link name='cylinder'>
+          <pose>-20.5029 0.902061 0.499992 -1e-06 1e-06 0</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -9.8 0 -0 0</wrench>
+        </link>
+        <link name='sphere'>
+          <pose>-20.5029 -0.59794 0.5 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -4621,10 +4694,1961 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-2.62147 -5.3821 22.1794 0 1.4018 -0.019812</pose>
+        <pose>-40.8957 -7.29974 48.2987 0 0.957796 0.236169</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
     </gui>
+    <audio>
+      <device>default</device>
+    </audio>
+    <model name='drc_practice_blue_cylinder'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>2.07818 -3.01842 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_organge_jersey_barrier_0'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>3.28475 -1.37157 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_blue_cylinder_0'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>1.36355 -3.08393 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_blue_cylinder_1'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-0.577052 -3.14427 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_angled_barrier_135'>
+      <static>1</static>
+      <frame name='one::__model__' attached_to='one::link'>
+        <pose relative_to='__model__'>0 0 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='one::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='one::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='two::__model__' attached_to='two::link'>
+        <pose relative_to='__model__'>1.7646 -0.008563 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='two::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='two::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='three::__model__' attached_to='three::link'>
+        <pose relative_to='__model__'>3.52922 -0.016171 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='three::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='three::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='four::__model__' attached_to='four::link'>
+        <pose relative_to='__model__'>5.13431 0.54837 0 0 0 -0.785398</pose>
+      </frame>
+      <static>1</static>
+      <link name='four::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='four::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='five::__model__' attached_to='five::link'>
+        <pose relative_to='__model__'>6.3884 1.79074 0 0 0 -0.785398</pose>
+      </frame>
+      <static>1</static>
+      <link name='five::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='five::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='six::__model__' attached_to='six::link'>
+        <pose relative_to='__model__'>7.6423 3.03258 0 0 0 -0.785398</pose>
+      </frame>
+      <static>1</static>
+      <link name='six::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='six::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='seven::__model__' attached_to='seven::link'>
+        <pose relative_to='__model__'>8.89611 4.27529 0 0 0 -0.785398</pose>
+      </frame>
+      <static>1</static>
+      <link name='seven::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='seven::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='eight::__model__' attached_to='eight::link'>
+        <pose relative_to='__model__'>10.1496 5.51614 0 0 0 -0.785398</pose>
+      </frame>
+      <static>1</static>
+      <link name='eight::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='eight::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='nine::__model__' attached_to='nine::link'>
+        <pose relative_to='__model__'>11.0288 6.44203 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='nine::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='nine::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='ten::__model__' attached_to='ten::link'>
+        <pose relative_to='__model__'>11.0288 6.44203 0.866 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='ten::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='ten::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-22.0566 -5.60374 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_angled_barrier_45'>
+      <static>1</static>
+      <frame name='one::__model__' attached_to='one::link'>
+        <pose relative_to='__model__'>0 0 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='one::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='one::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='two::__model__' attached_to='two::link'>
+        <pose relative_to='__model__'>1.7646 -0.008563 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='two::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='two::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='three::__model__' attached_to='three::link'>
+        <pose relative_to='__model__'>3.52922 -0.016171 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='three::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='three::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='four::__model__' attached_to='four::link'>
+        <pose relative_to='__model__'>5.2559 -0.59667 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='four::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='four::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='five::__model__' attached_to='five::link'>
+        <pose relative_to='__model__'>6.49818 -1.85004 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='five::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='five::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='six::__model__' attached_to='six::link'>
+        <pose relative_to='__model__'>7.74031 -3.10261 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='six::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='six::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='seven::__model__' attached_to='seven::link'>
+        <pose relative_to='__model__'>8.98256 -4.3561 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='seven::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='seven::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='eight::__model__' attached_to='eight::link'>
+        <pose relative_to='__model__'>10.2248 -5.60978 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='eight::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='eight::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='nine::__model__' attached_to='nine::link'>
+        <pose relative_to='__model__'>11.0288 -6.44203 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='nine::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='nine::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='ten::__model__' attached_to='ten::link'>
+        <pose relative_to='__model__'>11.0288 -6.44203 0.866 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='ten::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='ten::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-18.2881 14.6532 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_white_jersey_barrier'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-14.9836 5.93433 0 0 -0 0</pose>
+    </model>
+    <model name='drc_practice_yellow_parking_block'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_yellow_parking_block/meshes/block.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_yellow_parking_block/meshes/block.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-15.1121 3.9647 0 0 -0 0</pose>
+    </model>
+    <model name='brick_box_3x1x3_1'>
+      <static>1</static>
+      <link name='chassis'>
+        <pose>0 0 1.5 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>3 1 3</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://brick_box_3x1x3/meshes/simple_box.dae</uri>
+              <scale>3 1 3</scale>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://brick_box_3x1x3/materials/scripts</uri>
+              <uri>model://brick_box_3x1x3/materials/textures</uri>
+              <name>BrickBox/Diffuse</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-24.1486 -5.6317 0 0 -0 0</pose>
+    </model>
+    <model name='jersey_barrier_2'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='upright'>
+          <pose>0 0 0.5715 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.3063 1.143</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base'>
+          <pose>0 0 0.032258 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.8107 0.064516</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base2'>
+          <pose>0 0 0.1 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.65 0.1</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base3'>
+          <pose>0 0 0.2 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.5 0.1</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='left-angle'>
+          <pose>0 -0.224 0.2401 0.9 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.5 0.064516</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='right-angle'>
+          <pose>0 0.224 0.2401 -0.9 0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.5 0.064516</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-21.9484 10.8465 0 0 -0 0</pose>
+    </model>
+    <model name='jersey_barrier_2_clone'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='upright'>
+          <pose>0 0 0.5715 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.3063 1.143</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base'>
+          <pose>0 0 0.032258 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.8107 0.064516</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base2'>
+          <pose>0 0 0.1 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.65 0.1</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base3'>
+          <pose>0 0 0.2 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.5 0.1</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='left-angle'>
+          <pose>0 -0.224 0.2401 0.9 -0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.5 0.064516</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='right-angle'>
+          <pose>0 0.224 0.2401 -0.9 0 0</pose>
+          <geometry>
+            <box>
+              <size>4.06542 0.5 0.064516</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-19.8045 8.95376 0 0 0 -1.59337</pose>
+    </model>
+    <model name='drc_practice_angled_barrier_45_clone'>
+      <static>1</static>
+      <frame name='one::__model__' attached_to='one::link'>
+        <pose relative_to='__model__'>0 0 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='one::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='one::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='two::__model__' attached_to='two::link'>
+        <pose relative_to='__model__'>1.7646 -0.008563 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='two::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='two::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='three::__model__' attached_to='three::link'>
+        <pose relative_to='__model__'>3.52922 -0.016171 0 0 0 -1.5707</pose>
+      </frame>
+      <static>1</static>
+      <link name='three::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='three::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='four::__model__' attached_to='four::link'>
+        <pose relative_to='__model__'>5.2559 -0.59667 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='four::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='four::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='five::__model__' attached_to='five::link'>
+        <pose relative_to='__model__'>6.49818 -1.85004 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='five::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='five::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='six::__model__' attached_to='six::link'>
+        <pose relative_to='__model__'>7.74031 -3.10261 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='six::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='six::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='seven::__model__' attached_to='seven::link'>
+        <pose relative_to='__model__'>8.98256 -4.3561 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='seven::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='seven::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='eight::__model__' attached_to='eight::link'>
+        <pose relative_to='__model__'>10.2248 -5.60978 0 0 0 -2.3562</pose>
+      </frame>
+      <static>1</static>
+      <link name='eight::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_white_jersey_barrier/meshes/jersey_barrier.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='eight::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='nine::__model__' attached_to='nine::link'>
+        <pose relative_to='__model__'>11.0288 -6.44203 0 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='nine::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='nine::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <frame name='ten::__model__' attached_to='ten::link'>
+        <pose relative_to='__model__'>11.0288 -6.44203 0.866 0 -0 0</pose>
+      </frame>
+      <static>1</static>
+      <link name='ten::link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <collision name='collision'>
+          <geometry>
+            <mesh>
+              <uri>model://drc_practice_blue_cylinder/meshes/cylinder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <pose relative_to='ten::__model__'>0 0 0 0 -0 0</pose>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-28.5233 6.45364 0 0 -0 0</pose>
+    </model>
+    <model name='beer'>
+      <link name='link'>
+        <pose>0 0 0.115 0 -0 0</pose>
+        <inertial>
+          <mass>0.39</mass>
+          <inertia>
+            <ixx>0.00058</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00058</iyy>
+            <iyz>0</iyz>
+            <izz>0.00019</izz>
+          </inertia>
+          <pose>0 0 0 0 -0 0</pose>
+        </inertial>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.055</radius>
+              <length>0.23</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.055</radius>
+              <length>0.23</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://beer/materials/scripts</uri>
+              <uri>model://beer/materials/textures</uri>
+              <name>Beer/Diffuse</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-28.421 -8.37423 0 0 -0 0</pose>
+    </model>
+    <model name='checkerboard_plane'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://checkerboard_plane/meshes/checkerboard_plane.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-20.4865 -1.72979 0 0 -0 0</pose>
+    </model>
+    <model name='checkerboard_plane_clone'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://checkerboard_plane/meshes/checkerboard_plane.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-20.4985 0.277203 0 0 -0 0</pose>
+    </model>
+    <model name='checkerboard_plane_clone_0'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://checkerboard_plane/meshes/checkerboard_plane.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-20.4854 2.26399 0 0 -0 0</pose>
+    </model>
+    <model name='checkerboard_plane_clone_1'>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'>
+          <geometry>
+            <mesh>
+              <uri>model://checkerboard_plane/meshes/checkerboard_plane.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <pose>-20.5056 4.23998 0 0 -0 0</pose>
+    </model>
+    <model name='textured_shapes'>
+      <pose>-16.6515 10.2059 0.5 0 -0 0</pose>
+      <link name='box'>
+        <pose>0 -1.5 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <box>
+              <size>1 1 1</size>
+            </box>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://textured_shapes/materials/scripts</uri>
+              <uri>model://textured_shapes/materials/textures</uri>
+              <name>TexturedShape/Squares</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='sphere'>
+        <collision name='collision'>
+          <geometry>
+            <sphere>
+              <radius>0.5</radius>
+            </sphere>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <sphere>
+              <radius>0.5</radius>
+            </sphere>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://textured_shapes/materials/scripts</uri>
+              <uri>model://textured_shapes/materials/textures</uri>
+              <name>TexturedShape/Squares</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='cylinder'>
+        <pose>0 1.5 0 0 -0 0</pose>
+        <collision name='collision'>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='visual'>
+          <geometry>
+            <cylinder>
+              <radius>0.5</radius>
+              <length>1</length>
+            </cylinder>
+          </geometry>
+          <material>
+            <script>
+              <uri>model://textured_shapes/materials/scripts</uri>
+              <uri>model://textured_shapes/materials/textures</uri>
+              <name>TexturedShape/Squares</name>
+            </script>
+          </material>
+        </visual>
+        <self_collide>0</self_collide>
+        <inertial>
+          <pose>0 0 0 0 -0 0</pose>
+          <inertia>
+            <ixx>1</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>1</iyy>
+            <iyz>0</iyz>
+            <izz>1</izz>
+          </inertia>
+          <mass>1</mass>
+        </inertial>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+    </model>
   </world>
 </sdf>
