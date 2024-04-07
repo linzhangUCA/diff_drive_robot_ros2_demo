@@ -1,4 +1,4 @@
-# diff_drive_robot_ros2_demo
+# ros2_demo_robot
 This repository contains step-by-step tutorials on how to setup a SLAM robot simulation using Gazebo and ROS 2.
 
 # Branches Overview
