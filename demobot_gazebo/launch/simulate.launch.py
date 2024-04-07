@@ -14,6 +14,7 @@ def generate_launch_description():
     rviz_config_path = urdf_package_path / 'rviz/demobot.rviz'
     gazebo_package_path = get_package_share_path('demobot_gazebo')
     world_path = gazebo_package_path / 'worlds/demo_world.sdf'
+    ekf_config_path = gazebo_package_path / "configs/ekf.yaml"
 
     # Launch arguments
     model_arg = DeclareLaunchArgument(
@@ -76,6 +77,16 @@ def generate_launch_description():
         ],
         output='screen',
     )
+    robot_localization_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[
+            str(ekf_config_path),
+            {'use_sim_time': LaunchConfiguration('use_sim_time')}
+        ]
+    )
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -92,6 +103,7 @@ def generate_launch_description():
             robot_state_publisher_node,
             gazebo_process,
             spawn_entity,
+            robot_localization_node,
             rviz_node
         ]
     )
